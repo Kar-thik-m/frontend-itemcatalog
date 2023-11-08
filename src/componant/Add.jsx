@@ -2,7 +2,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { backendUrl } from '../../config';
-import styles from "../componant/Additems.module.css";
+import styles from "./componant/Additems.module.css";
 
 
 const AddItems = () => {
