@@ -1,0 +1,49 @@
+/* Default Styles (min-width: 1081px) */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(68, 102, 129);;
+}
+
+
+.link, .buttons {
+  background-color:  rgb(68, 102, 129);;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  flex: 1;
+  max-width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.link:hover {
+  background-color: #29b9a1;
+  transform: scale(1.05);
+}
+
+.buttons:hover {
+  background-color: #b93f29;
+  transform: scale(1.05);
+}
+
+
+/* Small Screens (max-width: 320px) */
+@media (max-width: 320px) {
+  .link, .buttons {
+    font-size: 12px;
+  }
+  
+}
+
+
+
+
+
