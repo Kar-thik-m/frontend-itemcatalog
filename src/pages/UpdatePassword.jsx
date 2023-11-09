@@ -38,7 +38,7 @@ const UpdatePassword = ({token}) => {
       <section className="container-fluid" style={{marginTop:'11%'}}>
       <section className="row justify-content-center">
         <section className="col-12 col-sm-6 col-md-4">
-        <h2>Enter your new pass to update</h2>
+        <h2 style={{color:"white",fontSize:"bold",fontFamily:"monospace"}}>Enter your new pass to update</h2>
         <form onSubmit={handleSubmit}>
         
           <div className="form-group">

@@ -4,7 +4,7 @@
 const App = () => {
   return (
     <div>
-      <h5>SuccessPage</h5>
+      <h5 style={{color:"white",fontSize:"bold"}}>SuccessPage</h5>
     </div>
     
   );
