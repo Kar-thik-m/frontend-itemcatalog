@@ -19,7 +19,7 @@ const Forgot = () => {
       }
     });
 
-    const data = await forgotResponse.json();
+    const data = await forgotResponse.json("data");
     setEmail("");
     navigate('/info');
   };
