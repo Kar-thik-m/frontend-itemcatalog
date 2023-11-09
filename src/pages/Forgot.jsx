@@ -10,8 +10,8 @@ const Forgot = () => {
       setEmail(e.target.value);
     };
   
-    const handleSubmit = async (e) => {
-      e.preventDefault();
+    const handleSubmit = async () => {
+     
       
       
       const forgotResponse=await fetch(`${backendUrl}/forgotPassword`,{
