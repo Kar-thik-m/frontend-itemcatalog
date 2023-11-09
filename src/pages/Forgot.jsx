@@ -25,11 +25,10 @@ const Forgot = () => {
       
       
       setEmail("")
+      navigate('/info')
       
     }; 
-    const navigateToInfo=()=>{
-       navigate('/info')
-    }
+   
     
     return (
       <section className="container-fluid" style={{marginTop:'11%'}}>
@@ -47,7 +46,7 @@ const Forgot = () => {
               onChange={handleEmailChange}
             />
           </div>
-          <button type="submit" onClick={()=>{handleSubmit();navigateToInfo();}}  className="btn btn-primary btn-block m-1">Send Verification Link to Email</button>
+          <button type="submit" onClick={handleSubmit()}  className="btn btn-primary btn-block m-1">Send Verification Link to Email</button>
         </form>
         </section>
     </section>
